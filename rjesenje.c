@@ -4,6 +4,7 @@
 /**
  * @author: Драган Ћајић
  * @datetime: 2:18 AM December 2, 2020
+ * @modified: 2:49 AM March 1, 2021
  * @subject: Програмирање на језику C!
  */
 
@@ -41,18 +42,22 @@ int main(void) {
 
 	// obrada
 	int i;
-    for (i = k; i <= n; i++) {
+	for (i = k; i <= n; i++) {
 		if (i % 3 == 0) {
 			zbir += i;
 			broj++;
 		}
-    }
+	}
 
-    // ispis na konzolu
-    printf("%d\n", zbir);
-    printf("%d\n", broj);
-    printf("Aritmeticka sredina brojeva djeljivih sa 3 iz segmenta [%d, %d] je: ", k, n);
-    printf("%.2f", (1.0*zbir) / broj);
+	// ispis na konzolu
+	if (broj == 0) {
+		printf("\nU segmentu [%d,%d] nema brojeva djeljivih sa 3!", k, n);
+	} else {
+		printf("\nUkupno brojeva djeljivih sa 3 u segmentu ima: %d\n", broj);
+		printf("Suma brojeva iz segmenta djeljivih sa 3 iznosi: %d\n", zbir);
+		printf("\nAritmeticka sredina brojeva djeljivih sa 3 iz segmenta [%d, %d] je: ", k, n);
+		printf("%.2f", (1.0*zbir) / broj);
+	}
 
 	return 0;
 }
