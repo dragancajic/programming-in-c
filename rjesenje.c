@@ -1,10 +1,12 @@
 // rjesenje.c by Драган Ћајић <http://learn-pisio.eu5.org/>
+// Program racuna aritmeticku sredinu cijelih brojeva djeljivih sa 3
+// iz proizvoljno odabranog segmenta [k, n] za k < n.
 #include <stdio.h>
 
 /**
  * @author: Драган Ћајић
  * @datetime: 2:18 AM December 2, 2020
- * @modified: 2:49 AM March 1, 2021
+ * @modified: 12:51 AM March 2, 2021
  * @subject: Програмирање на језику C!
  */
 
