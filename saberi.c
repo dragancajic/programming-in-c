@@ -1,10 +1,11 @@
 // saberi.c by Драган Ћајић <http://learn-pisio.eu5.org/>
-// Program sabira odabrani broj proizvoljno unesenih sabirka.
+// Program sabira odabrani broj proizvoljno unesenih sabiraka.
 #include <stdio.h>
 
 /**
  * @author: Драган Ћајић
  * @datetime: 9:51 PM March 1, 2021
+ * @modified: 11:32 PM March 5, 2021
  * @subject: Програмирање на језику C!
  */
 
