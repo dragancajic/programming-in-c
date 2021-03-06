@@ -3,6 +3,9 @@
 // B -- Aritmetika s cjelobrojnom vrijednoscu promjenljivih
 #include <stdio.h>
 
+// The #define preprocessor directive
+#define BLANK_CHARACTER ' '
+
 /**
  * @author: Драган Ћајић
  * @datetime: 12:21 AM March 6, 2021
@@ -13,7 +16,7 @@ int main(void) {
 	// konstante
 	const int A1 = 17; // const is a type qualifier
 	const int B1 = 8;
-	const char BLANK_CHARACTER = ' ';
+	//const char BLANK_CHARACTER = ' ';
 
 	// promjenljive
 	int a = 0;
