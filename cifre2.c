@@ -7,8 +7,9 @@
 /**
  * @author: Драган Ћајић
  * @datetime: 3:46 PM April 2, 2021
+ * @modified: 12:09 AM April 11, 2021
  * @subject: Програмирање на језику C!
- * @description: Program broji parne i neparne cifara broja > 9.
+ * @description: Program broji parne i neparne cifre broja > 9.
  */
 
 int main(void) {
