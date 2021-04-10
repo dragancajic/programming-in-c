@@ -25,12 +25,25 @@ int main(void) {
 	printf("\n"); // prazna linija
 
 	// ~ unos podataka
+	/*
 	printf("Unesite broj veci od 9 : ");
 	scanf("%d", &broj);
 
 	while (broj <= 9) { // provjera unosa
 		printf("GRESKA! CIJELI broj > 9: ");
 		scanf("%d", &broj);
+	}
+	*/
+
+	while (1) {
+		printf("Unesite broj veci od 9 : ");
+		scanf("%d", &broj);
+
+		if (broj <= 9) {
+			printf("Pogresan broj unesen!\n\n");
+			continue;
+		}
+		break;
 	}
 
 	// ~ informacija korisniku
