@@ -1,5 +1,5 @@
 // cifre2.c by Драган Ћајић <http://learn-pisio.eu5.org/>
-// Program broji parne i neparne cifare cijelog broja veceg od 9 koriscenjem
+// Program broji parne i neparne cifre cijelog broja veceg od 9 koriscenjem
 // do-while petlje, while petlje i for petlje. <-- CIKLICKA STRUKTURA PROGRAMA
 // Program napisati u interaktivnom obliku.    <-- POSTIZANJE INTERAKTIVNOSTI!
 #include <stdio.h>

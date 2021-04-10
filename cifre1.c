@@ -7,6 +7,7 @@
 /**
  * @author: Драган Ћајић
  * @datetime: 2:56 PM April 2, 2021
+ * @modified: 12:27 AM April 11, 2021
  * @subject: Програмирање на језику C!
  * @description: Program racuna proizvod cifara broja > 9.
  */
@@ -24,12 +25,25 @@ int main(void) {
 	printf("\n"); // prazna linija
 
 	// ~ unos podataka
+	/*
 	printf("Unesite broj veci od 9 : ");
 	scanf("%d", &broj);
 
 	while (broj <= 9) { // provjera unosa
 		printf("GRESKA! CIJELI broj > 9: ");
 		scanf("%d", &broj);
+	}
+	*/
+
+	while (1) {
+		printf("Unesite broj veci od 9 : ");
+		scanf("%d", &broj);
+
+		if (broj <= 9) {
+			printf("Pogresan broj unesen!\n\n");
+			continue;
+		}
+		break;
 	}
 
 	// ~ informacija korisniku
